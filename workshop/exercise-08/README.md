@@ -4,7 +4,7 @@
 
 Update only the CSS file to reproduce the following:
 
-![exercise-8 goal](../../__1-lecture/assets/ex-8-goal.gif)
+![exercise-8 goal](../.././lecture/assets/ex-8-goal.gif)
 
 ### Some helpful suggestions
 

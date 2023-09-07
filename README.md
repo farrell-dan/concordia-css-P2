@@ -4,13 +4,13 @@
 
 ⏲️ _Estimated time required: 15 to 30 minutes._
 
-Open the README in `📁__0-pre-lecture`. Follow the instructions and complete the activity.
+Open the [README](./pre-lecture/README.md) in the `pre-lecture` folder. Follow the instructions and complete the activity.
 
 ---
 
 ## 🦉 Lecture
 
-- [lecture-1-page-layout.md](__1-lecture/lecture-1-page-layout.md)
+- [Lecture 1 | Page Layout](./lecture/lecture-1-page-layout.md)
 
 ---
 
@@ -18,49 +18,49 @@ Open the README in `📁__0-pre-lecture`. Follow the instructions and complete t
 
 **Each exercise folder contains a `README` with additional documentation.**
 
-## Exercise 1 - Use Flexbox
+## [Exercise 1](./workshop/exercise-01/) - Use Flexbox
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-1 goal](./__1-lecture/assets/ex-1-goal.png)
+![exercise-1 goal](././lecture/assets/ex-1-goal.png)
 
-## Exercise 2
-
-Create an `index.html` file and a `style.css` file that reproduces the following:
-
-![exercise-2 goal](./__1-lecture/assets/ex-2-goal.gif)
-
-## Exercise 3
+## [Exercise 2](./workshop/exercise-02/)
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-3 goal](./__1-lecture/assets/ex-3-goal.png)
+![exercise-2 goal](././lecture/assets/ex-2-goal.gif)
+
+## [Exercise 3](./workshop/exercise-03/)
+
+Create an `index.html` file and a `style.css` file that reproduces the following:
+
+![exercise-3 goal](././lecture/assets/ex-3-goal.png)
 
 This is a full screen background image with text in the center
 
-## Exercise 4
+## [Exercise 4](./workshop/exercise-04/)
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-4 goal](./__1-lecture/assets/ex-4-goal.png)
+![exercise-4 goal](././lecture/assets/ex-4-goal.png)
 
-## Exercise 5
+## [Exercise 5](./workshop/exercise-05/)
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-5 goal](./__1-lecture/assets/ex-5-goal.gif)
+![exercise-5 goal](././lecture/assets/ex-5-goal.gif)
 
-## Exercise 6
+## [Exercise 6](./workshop/exercise-06/)
 
 Only update `style.css` file to reproduce the following:
 
-![exercise-6 goal](./__1-lecture/assets/ex-6-goal.gif)
+![exercise-6 goal](././lecture/assets/ex-6-goal.gif)
 
-## Exercise 7
+## [Exercise 7](./workshop/exercise-07/)
 
 Only update the `style.css` file to reproduce the following:
 
-![exercise-7 goal](./__1-lecture/assets/ex-7-goal.gif)
+![exercise-7 goal](././lecture/assets/ex-7-goal.gif)
 
 ---
 
@@ -68,23 +68,23 @@ Only update the `style.css` file to reproduce the following:
 
 ---
 
-## Exercise 8
+## [Exercise 8](./workshop/exercise-08/)
 
 Only update `style.css` file to reproduce the following:
 
-![exercise-8 goal](./__1-lecture/assets/ex-8-goal.gif)
+![exercise-8 goal](././lecture/assets/ex-8-goal.gif)
 
-## Exercise 9
+## [Exercise 9](./workshop/exercise-09/)
 
 Only update `style.css` file to reproduce the following:
 
-![exercise-9 goal](./__1-lecture/assets/ex-9-goal.gif)
+![exercise-9 goal](././lecture/assets/ex-9-goal.gif)
 
-## Exercise 10
+## [Exercise 10](./workshop/exercise-10/)
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-10 goal](./__1-lecture/assets/ex-10-goal.gif)
+![exercise-10 goal](././lecture/assets/ex-10-goal.gif)
 
 ---
 
@@ -96,109 +96,22 @@ Create an `index.html` file and a `style.css` file that reproduces the following
 
 The exercises in the following links will help you get more practice with CSS selectors, CSS Flexbox, and optionally Grid.
 
-### Exercise 11
+### [Exercise 11](./workshop/exercise-10/)
 
 Go back to exercise 10 and make the button do a 360deg rotation when it bounces
 
-![exercise-10 bonus goal](./__1-lecture/assets/ex-10-goal-bonus.gif)
+![exercise-10 bonus goal](././lecture/assets/ex-10-goal-bonus.gif)
 
 - Use the syntax `transform:scale() rotate()` in your keyframe
 
-### Exercise 12 - NO flexbox!
+### [Exercise 12](./workshop/exercise-12-stretch/) - NO flexbox!
 
 The very first exercise had us build this:
 
-![exercise-1 goal](./__1-lecture/assets/ex-1-goal.png)
+![exercise-1 goal](././lecture/assets/ex-1-goal.png)
 
 For fun, try and build this _without_ using flexbox. No `display: flex` allowed.
 
 You will need to use `calc()` and `vh` units for this.
 
 Example use: `min-height: calc(10vh + 200px);`
-
-### Exercise 13
-
-Create an HTML file and a CSS file that outputs the following
-
-![exercise-13 goal](./__1-lecture/assets/ex-13-goal.png)
-
-```html
-<div class="alert alert-primary">
-  <p>A simple primary alert.</p>
-</div>
-
-<div class="alert alert-secondary">
-  <p>A simple secondary alert.</p>
-</div>
-
-...
-```
-
-### Exercise 14
-
-Create an HTML file and a CSS file that outputs the following
-
-![exercise-14 goal](./__1-lecture/assets/ex-14-goal.png)
-
-```html
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-
-...
-```
-
-Note: The `type="button"` attribute isn't important for this exercise
-
-### Exercise 15
-
-Create an HTML file and a CSS file that outputs the following
-
-Build upon what you did in exercise 14.
-
-![exercise-15 goal](./__1-lecture/assets/ex-15-goal.png)
-
-```html
-<button type="button" class="btn btn-outline-primary">Primary</button>
-<button type="button" class="btn btn-outline-secondary">Secondary</button>
-
-...
-```
-
-Note: The `type="button"` attribute isn't important for this exercise
-
-### Exercise 16
-
-Create an HTML file and a CSS file that outputs the following
-
-Build upon what you did in previous exercise 14 and 15.
-
-#### Part 1
-
-![exercise-16 goal 1](./__1-lecture/assets/ex-16-goal-1.png)
-
-#### Part 2
-
-![exercise-16 goal 2](./__1-lecture/assets/ex-16-goal-2.png)
-
-#### Part 3
-
-![exercise-16 goal 3](./__1-lecture/assets/ex-16-goal-3.png)
-
-## Notes
-
-- You do not need to re-create the code snippets. Your goal is to create the buttons. The code snippets are shown in the screenshots as an example of what the HTML properties should be.
-- The `type="button"` attribute isn't important for this exercise
-
-### Exercise 17
-
-Create an HTML file and a CSS file that outputs the following
-
-![exercise-17 goal](./__1-lecture/assets/ex-17-goal.png)
-
-### Exercise 18
-
-Create an HTML file and a CSS file that outputs the following
-
-Build upon what you did in exercise 17.
-
-![exercise-18 goal](./__1-lecture/assets/ex-18-goal.png)

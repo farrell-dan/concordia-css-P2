@@ -4,7 +4,7 @@
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-3 goal](../../__1-lecture/assets/ex-3-goal.png)
+![exercise-3 goal](../.././lecture/assets/ex-3-goal.png)
 
 This is a full screen background image with text in the center
 
