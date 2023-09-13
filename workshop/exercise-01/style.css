@@ -1,0 +1,36 @@
+
+body{
+    margin: 0;
+}
+.container{
+    min-height: 100vh;
+    font-family: Poppins, sans-serif ;
+    text-align: center;
+}
+header{
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+h1{
+    position: fixed;
+    top: 38px;
+    height: calc(100% - 76px);
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+header, footer{
+    background-color: #3a3633;
+    color: white;
+}

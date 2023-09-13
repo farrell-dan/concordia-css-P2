@@ -2,17 +2,21 @@
 <html>
   <head>
     <title>Book a Taxi</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/settings.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/typography.css"/>
   </head>
   <body>
     <main>
-      <div class=""></div>
-      <div class="">
+      <div class="banner"></div>
+      <div class="content">
         <h1>Registration form</h1>
         <form>
-          <div class="">
+          <div class="section">
             <h2>Personal Information</h2>
-            <div class="">
-              <div class="">
+            <div class="sub-section">
+              <div class="personal form-item form-group">
                 <label for="firstname">First Name</label>
                 <input
                   id="firstname"
@@ -21,7 +25,7 @@
                   placeholder="Your first name"
                 />
               </div>
-              <div class="">
+              <div class="personal form-item form-group">
                 <label for="lastname">Last Name</label>
                 <input
                   id="lastname"
@@ -31,7 +35,7 @@
                 />
               </div>
             </div>
-            <div class="">
+            <div class="personal form-item">
               <label for="email">Email</label>
               <input
                 id="email"
@@ -41,9 +45,9 @@
               />
             </div>
           </div>
-          <div class="">
+          <div class="section">
             <h2>Which taxi do you require?</h2>
-            <div class="">
+            <div class="select-container">
               <label>
                 <input type="radio" name="car" value="car" checked />
                 Car
@@ -58,9 +62,9 @@
               </label>
             </div>
           </div>
-          <div class="">
+          <div class="section">
             <h2>Choose your extras</h2>
-            <div class="">
+            <div class="select-container checkboxes">
               <label>
                 <input type="checkbox" name="baby-seat" value="baby-seat" />
                 Baby seat
@@ -75,11 +79,11 @@
               </label>
             </div>
           </div>
-          <div class="">
-            <div class="">
+          <div class="section">
+            <div class="sub-section">
               <h2>Pick you Location</h2>
               <label for="pickup">Choose location:</label>
-              <select class="" name="pickup">
+              <select class="sub-selection form-group" name="pickup">
                 <option value="null" selected>Select One</option>
                 <option value="taxi-office">Taxi Office</option>
                 <option value="town-hall">Town Hall</option>
@@ -87,18 +91,18 @@
               </select>
             </div>
           </div>
-          <div class="">
+          <div class="section">
             <h2>Additional Instructions</h2>
-            <div class="">
+            <div class="personal label">
               <label for="special">Provide Instructions</label>
               <textarea
-                class=""
+                class="input-area area"
                 name="special"
                 placeholder="provide special instructions here"
               ></textarea>
             </div>
           </div>
-          <button class="">Submit</button>
+          <button class="btn">Submit</button>
         </form>
       </div>
     </main>
