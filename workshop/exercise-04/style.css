@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    /* margin: 5% 14%; */
+}
+div{
+margin: 15px;
+}
+
+p{
+    font-size: 1.5em;
+    display: inline;
+    padding: 12.5px 25px;
+    border: medium solid black;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+h2{
+    max-width: 38ch;
+    margin: 0;
+}
+
+a{
+    color: #0070c8;
+    text-decoration: none;
+}
+
+.link::after {
+    content: ">";
+}
