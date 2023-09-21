@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins" , sans-serif;
 }
 
 .header {
@@ -13,16 +13,16 @@ body {
   margin: 0 20px;
 }
 
-
 .radio-label,
 .checkbox-label {
-  justify-content: left;
-  padding-bottom: 5px;
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 label {
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .text-field {
   display: flex;
@@ -36,7 +36,7 @@ label {
 }
 
 .section > label {
-  justify-content: left;
+  display: inline-block;
 }
 
 select {
@@ -45,13 +45,21 @@ select {
 
 textarea {
   display: block;
- 
-
   width: 100%;
+  line-height: 3;
 }
 
 .form-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  padding: 20px 40px;
+  background-color: white;
+  border: 1px #1b8af1 solid;
 }
 
 .form-button:hover {
+  color: white;
+  background-color:  #1b8af1;
 }
